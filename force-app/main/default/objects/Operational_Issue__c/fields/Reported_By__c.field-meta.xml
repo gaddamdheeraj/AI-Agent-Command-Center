@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reported_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Reported By</label>
+    <referenceTo>Team_Member__c</referenceTo>
+    <relationshipLabel>Operational Issues</relationshipLabel>
+    <relationshipName>Operational_Issues</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

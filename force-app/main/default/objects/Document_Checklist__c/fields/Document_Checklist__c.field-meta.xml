@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Checklist__c</fullName>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aadhaar, PAN, Education Certificate, Offer Letter, Bank Details</fullName>
+                <default>false</default>
+                <label>Aadhaar, PAN, Education Certificate, Offer Letter, Bank Details</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
